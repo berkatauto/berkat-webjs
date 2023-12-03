@@ -21,7 +21,7 @@ const validation = () => {
 };
 // Kirim data artikel ke API
 
-fetch('', {
+fetch('https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-cf', {
     method: 'POST',
     body:   formDataObject,
 })
