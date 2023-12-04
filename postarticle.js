@@ -1,11 +1,17 @@
 // Isian form untuk posting artikel
 document.getElementById('postArticleForm')
 document.getElementById('title')
+document.getElementById('category')
+document.getElementById('tags')
+document.getElementById('image_input')
 document.getElementById('content')
 document.getElementById('submit')
 // Mengambil nilai dari elemen input pada HTML
 const postArticleForm = document.getElementById('postArticleForm');
 const titleInput = document.getElementById('title');
+const categoryInput = document.getElementById('category');
+const tagsInput = document.getElementById('tags');
+const imageInput = document.getElementById('image_input');
 const contentInput = document.getElementById('content');
 const submitButton = document.getElementById('submit');
 const errorMessage = document.getElementById('error-message');
