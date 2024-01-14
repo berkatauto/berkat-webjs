@@ -1,3 +1,5 @@
+import { API } from "../api/api.js";
+
 const updateArticleForm = document.getElementById('updateArticleForm');
 const titleInput = document.getElementById('title');
 const categoryInput = document.getElementById('category');
@@ -33,7 +35,7 @@ const updateArticle = () => {
     content,
   };
   // Kirim data artikel ke API
-  fetch(apiUrl, {
+  fetch(API.updateArticle, {
     method: 'PUT',
     body: JSON.stringify(article),
   })

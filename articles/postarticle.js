@@ -10,7 +10,7 @@ export default function postArticle() {
         "id": id
     }
 
-    postBiasa(API.GetArticle, json, responseHandler)
+    postBiasa(API.CreateArticle, json, responseHandler)
 }
 
 function responseData(result) {

@@ -13,3 +13,9 @@ export let DeleteArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/
 export let SignUp = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-signUp";
 // Sign In
 export let SignIn = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-signIn";
+
+// ++++++++++++++++++++++++++ Web ++++++++++++++++++++++++++ //
+// Search
+export let SearchArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-search";
+// Get Last New
+export let GetLastNew = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-lastNew";
