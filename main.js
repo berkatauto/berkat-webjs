@@ -4,10 +4,22 @@ import { SignIn } from "./account/signin.js";
 import {Authorization} from "./account/authorization.js";
 
 // Articles CRUD
+
 import { postArticle } from "./articles/postarticle.js";
 import { getArticle } from "./articles/getArticle.js";
 import { deleteArticle } from "./articles/deleteArticle.js";
 import { updateArticle } from "./articles/updateArticle.js";
+
+// Articles View
+import { lastArticle } from "./webfunc/getlastnew.js";
+
+// Misc
+import { Logout } from "./cookies/logout.js";
+import { Login } from "./cookies/login.js";
+import { elements } from "./cookies/elements.js";
+
+
+
 
 window.login = Login;
 window.signup = SignUp;

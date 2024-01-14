@@ -1,6 +1,8 @@
 import { postBiasa } from "../api/postfunc.js"
 import { API } from "../api/api.js"
 
+const webloader = document.getElementById('webloader');
+
 export default function postArticle() {
     const searchParams = new URLSearchParams(window.location.search);
     const id = searchParams.get('id');

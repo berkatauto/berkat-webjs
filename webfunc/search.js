@@ -1,11 +1,13 @@
-const deleteButton = document.getElementById('deleteArticle');
+const quickSearch = document.getElementById('quickSearch');
+const searchButton = document.getElementById('searchButton');
+const searchResult = document.getElementById('searchResult');
 
-deleteButton.addEventListener('click', () => {
+searchButton.addEventListener('searchButton', () => {
     // Mengambil nilai dari elemen input pada HTML
-    const title = titleInput.value;
-    // Kirim Perintah Delete ke API
+    const title = quickSearch.value;
+    // Kirim Perintah POST ke API
     fetch(apiUrl, {
-        method: 'DELETE',
+        method: 'POST',
         body: JSON.stringify({ title }),
     })
         .then(response => response.json())
@@ -17,5 +19,8 @@ deleteButton.addEventListener('click', () => {
                 errorMessage.textContent = 'Error: '; // pesan kesalahan
             }
         });
+    // Result Search
+    const searchResult = document.getElementById('searchResult');
+    const data = result;
 }
 );

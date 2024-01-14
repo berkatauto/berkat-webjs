@@ -1,4 +1,3 @@
-const apiUrl = 'https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-updateArticle';
 const updateArticleForm = document.getElementById('updateArticleForm');
 const titleInput = document.getElementById('title');
 const categoryInput = document.getElementById('category');
@@ -18,6 +17,7 @@ const validation = () => {
     submitButton.disabled = true;
   }
 };
+
 // Mengambil nilai dari elemen input pada HTML
 const updateArticle = () => {
   const title = titleInput.value;
