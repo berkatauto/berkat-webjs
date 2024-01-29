@@ -25,24 +25,17 @@ window.signup = SignUp;
 window.logout = Logout;
 window.newarticle = NewArticle;
 
-const Element = document.getElementById('');
-const Authorization = document.getElementById('Authorization');
-const logoutprocess = document.getElementById('logout');
-const loginview = document.getElementById('')
-const lastnew = document.getElementById('lastnew');
-const postarticle = document.getElementById('postarticle');
-const deletearticle = document.getElementById('deletearticle');
-const updatearticle = document.getElementById('updatearticle');
-const getarticle = document.getElementById('getarticle');
-const searcharticle = document.getElementById('searcharticle');
-const login = document.getElementById('login');
-const signup = document.getElementById('signup');
-const logout = document.getElementById('logout');
-const postArticle = document.getElementById('postArticle');
-const getArticle = document.getElementById('getArticle');
-const deleteArticle = document.getElementById('deleteArticle');
-const updateArticle = document.getElementById('updateArticle');
-const searchArticle = document.getElementById('searchArticle');
+if (signup) {
+    signup.addEventListener('click', SignUp);
+} else {
+    console.log('signup not found. Please check your HTML file.')
+}
+
+if (loginprocess) {
+    loginprocess.addEventListener('click', SignIn);
+} else {
+    console.log('loginprocess not found. Please check your HTML file.')
+}
 
 if (searchArticle) {
     searchArticle()
