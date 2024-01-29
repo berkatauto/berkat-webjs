@@ -14,7 +14,7 @@ export default function postArticle() {
 }
 
 function responseData(result) {
-    const postArticleForm = document.getElementById('postArticleForm');
+    const postArticleForm = document.getElementById('postarticleform');
     const data = result;
     // create new div element
     const newDiv = document.createElement("div");

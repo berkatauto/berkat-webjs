@@ -1,21 +1,19 @@
 // ++++++++++++++++++++++++++ CRUD ++++++++++++++++++++++++++ //
-// Create
-export let CreateArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-cf";
-// Read
-export let GetArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-getArticle";
-// Update
-export let UpdateArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-updateArticle";
-// Delete
-export let DeleteArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-deleteArticle";
+// Create // Pakai Post
+export let CreateArticle = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/articlepost";
+// Read // PAKAI GET
+export let GetArticle = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/getarticle";
+// Update // Pakai PUT
+export let UpdateArticle = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/updatearticle";
+// Delete // pakai DELETE
+export let DeleteArticle = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/articledelete";
 
 // ++++++++++++++++++++++++++ Account ++++++++++++++++++++++++++ //
-// Sign Up
-export let SignUp = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-signUp";
-// Sign In
-export let SignIn = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-signIn";
+// Sign Up // Pakai Post
+export let SignUp = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/signup";
+// Sign In // Pakai Post
+export let SignIn = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/signin";
 
 // ++++++++++++++++++++++++++ Web ++++++++++++++++++++++++++ //
-// Search
-export let SearchArticle = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-search";
 // Get Last New
-export let GetLastNew = "https://asia-southeast2-gis-moni.cloudfunctions.net/berkatauto-lastNew";
+export let GetLastNew = "https://asia-southeast2-spheric-entity-401507.cloudfunctions.net/get-article";
