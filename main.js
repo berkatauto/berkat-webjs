@@ -6,8 +6,8 @@ import {Authorization} from "./account/authorization.js";
 // Articles CRUD
 
 import { postArticle } from "./articles/postarticle.js";
-import { getArticle } from "./articles/getArticle.js";
-import { deleteArticle } from "./articles/deleteArticle.js";
+import { getArticle } from "./articles/getarticle.js";
+import { deleteArticle } from "./articles/deletearticle.js";
 import { updateArticle } from "./articles/updateArticle.js";
 
 // Articles View
